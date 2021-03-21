@@ -1,0 +1,2 @@
+ALTER TABLE student ADD gpa DECIMAL(4, 2);
+ALTER TABLE student DROP COLUMN gpa;
