@@ -133,7 +133,7 @@ _: only one character
 
 Triggers: When something happens, do something.
 Need to change delimiter, which can only be done in CLI.
-
+```sql
 DELIMITER $$
 CREATE
     TRIGGER my_trigger BEFORE INSERT
@@ -166,3 +166,4 @@ CREATE
          END IF;
     END$$
 DELIMITER ;
+```
